@@ -1,29 +1,30 @@
 {
-  "name": "flexbox-fast",
-  "version": "1.0.0",
-  "description": "Flexbox helpers",
-  "main": "index.css",
-  "scripts": {
-    "build": " node-sass --output-style expanded index.scss index.css",
-    "prebuild": "rimraf index.css && rimraf index.css.map"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yonicalsin/flexbox-fast.git"
-  },
-  "keywords": [
-    "flexbox",
-    "css",
-    "flex"
-  ],
-  "author": "Yoni Calsin <helloyonicb@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yonicalsin/flexbox-fast/issues"
-  },
-  "homepage": "https://github.com/yonicalsin/flexbox-fast#readme",
-  "devDependencies": {
-    "node-sass": "^4.14.1",
-    "rimraf": "^3.0.2"
-  }
+   "name": "flexbox-fast",
+   "version": "1.0.0",
+   "description": "Flexbox helpers",
+   "main": "index.css",
+   "scripts": {
+      "build": " node-sass --output-style expanded index.scss index.css",
+      "prebuild": "rimraf index.css && rimraf index.css.map"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yonicalsin/flexbox-fast.git"
+   },
+   "keywords": [
+      "flexbox",
+      "css",
+      "flex"
+   ],
+   "author": "Yoni Calsin <helloyonicb@gmail.com>",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/yonicalsin/flexbox-fast/issues"
+   },
+   "homepage": "https://github.com/yonicalsin/flexbox-fast#readme",
+   "devDependencies": {
+      "node-sass": "^4.14.1",
+      "prettier": "^2.0.5",
+      "rimraf": "^3.0.2"
+   }
 }
